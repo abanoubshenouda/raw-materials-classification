@@ -23,3 +23,25 @@
 
 
 
+
+
+
+
+
+**2. Import Libraries**
+
+# Importing essential libraries
+import tensorflow as tf           # For building and training deep learning models
+import numpy as np                # For numerical computations
+import matplotlib.pyplot as plt   # For plotting graphs and images
+import seaborn as sns             # For statistical data visualization
+import os                         # For interacting with the operating system
+from pathlib import Path          # For easier file path manipulations
+import cv2                        # For image processing
+from sklearn.model_selection import train_test_split  # To split dataset into training and testing
+import random                     # For reproducibility and random operations
+
+# Display TensorFlow version and check if GPU is available
+print("TensorFlow version:", tf._version_)
+print("GPU Available:", tf.config.list_physical_devices('GPU'))
+
